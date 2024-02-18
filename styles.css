@@ -27,6 +27,8 @@ body{
 .section {
 
     outline: 2px solid red;
+    padding-top: 84px;
+    padding-bottom: 84px;
 
 }
 
@@ -81,6 +83,7 @@ button {
     line-height: 1.36;
     text-transform: uppercase;
     color: var(--secondery-txt-cl);
+    margin-bottom: 20px;
 }
 
 .title{
@@ -90,6 +93,7 @@ button {
     line-height: 1.17;
     letter-spacing: 2.1px;
     color: var(--secondery-txt-cl);
+    margin-bottom: 20px;
 }
 
 .title-light{
@@ -107,7 +111,7 @@ button {
     text-transform: uppercase;
     color: var(--title-light);
     background-color: transparent;
-    cursor: pointer;
+    
 }
 
 
@@ -136,10 +140,14 @@ button {
 .header {
 
     background-color: #111319;
+    padding-top: 40px;
+    width: 100%;
 }
 .header-logo {
+  
 }
 .header-logo-img {
+    
 }
 .header-nav {
 }
@@ -353,6 +361,24 @@ textarea {
 @media only screen and (min-width: 320px) and (max-width: 767.8px){
     
     .about-img {
+
+        display: none;
+    }
+
+    .header-logo-img {
+        
+        width: 76px;
+        height: 56px;
+    }
+
+    .header-nav,
+    .header-contact,
+    .btn {
+
+        display: none;
+    }
+
+    .hero-list {
 
         display: none;
     }
