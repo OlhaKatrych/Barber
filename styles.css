@@ -7,6 +7,7 @@
     --main-bg-cl: #ffffff; 
     --title-light: #ffffff;
     --accent-cl: #FF6C00;
+    --subtitle-cl: #9DA4BD;
 
 }
 
@@ -88,7 +89,7 @@ button {
 
 .title{
 
-    font-size: 42px;
+    font-size: 48px;
     font-family: Raleway;
     line-height: 1.17;
     letter-spacing: 2.1px;
@@ -103,11 +104,17 @@ button {
 
 .btn{
 
+    min-width: 160px;
+    min-height: 40px;
+    padding: 12px 20px;
+
     font-family: inherit;
     font-size: 12px;
     font-weight: 600;
     line-height: 1.33;
     letter-spacing: 1.08px;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
     text-transform: uppercase;
     color: var(--title-light);
     background-color: transparent;
@@ -141,6 +148,7 @@ button {
 
     background-color: #111319;
     padding-top: 40px;
+    padding-bottom: 112px;
     width: 100%;
 }
 .header-logo {
@@ -186,6 +194,8 @@ button {
 .hero {
 
     background-color: #111319;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .hero-container {
@@ -199,11 +209,23 @@ button {
 .hero-link {
 }
 
+.hero-wrapper {
+
+    width: 336px;
+}
+
 .hero-uppertitle {
+
+    color: var(--subtitle-cl);
 }
 .hero-title {
 }
 .hero-subtitle {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.62;
+    color: var( --subtitle-cl);
 }
 .hero-list-slide {
 }
@@ -227,14 +249,33 @@ button {
 }
 
 .about-uppertitle {
+
+ color: var(--secondery-txt-cl);
+
 }
 .about-title {
+
+    width: 306px;
+    font-size: 28px;
 }
 .about-subtitle {
+
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--main-txt-cl);
+    margin-bottom: 20px;
 }
 .about-desc {
+    
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--main-txt-cl);
+
+    margin-bottom: 40px;
 }
 .about-btn {
+
+    color: var(--secondery-txt-cl);
 }
 
 /*PRICE STYLE*/
@@ -365,11 +406,6 @@ textarea {
 
 @media only screen and (min-width: 320px) and (max-width: 767.8px){
     
-    .about-img {
-
-        display: none;
-    }
-
     .header-logo-img {
         
         width: 76px;
@@ -378,9 +414,22 @@ textarea {
 
     .header-nav,
     .header-contact,
-   
+    .hero-list-hidden {
 
-    .hero-list {
+        display: none;
+    }
+
+    .header-btn-hidden {
+
+        display: none;
+    }
+
+    .hero-list-hidden {
+
+        display: none;
+    }
+
+    .about-img {
 
         display: none;
     }
