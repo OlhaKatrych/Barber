@@ -82,6 +82,7 @@ button {
     font-size: 11px;
     font-weight: 600;
     line-height: 1.36;
+    letter-spacing: 1.1px;
     text-transform: uppercase;
     color: var(--secondery-txt-cl);
     margin-bottom: 20px;
@@ -92,7 +93,7 @@ button {
     font-size: 48px;
     font-family: Raleway;
     line-height: 1.17;
-    letter-spacing: 2.1px;
+    letter-spacing: 2.4px;
     color: var(--secondery-txt-cl);
     margin-bottom: 20px;
 }
@@ -148,8 +149,13 @@ button {
 
     background-color: #111319;
     padding-top: 40px;
-    padding-bottom: 112px;
+    padding-bottom: 0;
     width: 100%;
+}
+
+.header-container {
+
+    padding-bottom: 112px;
 }
 .header-logo {
   
@@ -200,6 +206,8 @@ button {
 
 .hero-container {
 
+    padding-bottom: 209px;
+
 }
 
 .hero-list {
@@ -216,15 +224,15 @@ button {
 
 .hero-uppertitle {
 
-    color: var(--subtitle-cl);
+    color: #999DA4BD;
 }
 .hero-title {
 }
 .hero-subtitle {
 
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.62;
+    letter-spacing: 0.32px;
     color: var( --subtitle-cl);
 }
 .hero-list-slide {
